@@ -51,7 +51,7 @@ import unitauto.jar.UnitAutoApp;
  * https://www.springcloud.cc/spring-boot.html#using-boot-locating-the-main-class
  * @author Lemon
  */
-@SpringBootApplication
+//@SpringBootApplication
 @Configuration
 public class UnitAutoApplication implements ApplicationContextAware {
 	private static final String TAG = "UnitAutoApplication";
@@ -61,11 +61,11 @@ public class UnitAutoApplication implements ApplicationContextAware {
 		return APPLICATION_CONTEXT;
 	}
 
-	public static void main(String[] args) throws Exception {
-		ConfigurableApplicationContext context = SpringApplication.run(UnitAutoApplication.class, args);
-		Log.DEBUG = true;
-		System.out.println("这个 main 方法仅为 Jitpack 成功打包，实际应该在子类执行对应的 main 方法");
-	}
+//	public static void main(String[] args) throws Exception {
+//		ConfigurableApplicationContext context = SpringApplication.run(UnitAutoApplication.class, args);
+//		Log.DEBUG = true;
+//		System.out.println("这个 main 方法仅为 Jitpack 成功打包，实际应该在子类执行对应的 main 方法");
+//	}
 
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
