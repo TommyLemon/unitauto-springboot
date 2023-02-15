@@ -51,7 +51,7 @@ import unitauto.jar.UnitAutoApp;
  * https://www.springcloud.cc/spring-boot.html#using-boot-locating-the-main-class
  * @author Lemon
  */
-//@SpringBootApplication
+@SpringBootApplication
 @Configuration
 public class UnitAutoApplication implements ApplicationContextAware {
 	private static final String TAG = "UnitAutoApplication";
