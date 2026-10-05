@@ -5,7 +5,7 @@
 
 	<groupId>unitauto.boot</groupId>
 	<artifactId>unitauto-springboot-sdk</artifactId>
-	<version>3.0.5</version>
+	<version>3.1.0</version>
 	<packaging>jar</packaging>
 
 	<name>UnitAuto-Java-Demo</name>
@@ -41,22 +41,22 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.83</version>
+			<version>1.2.84</version>
 		</dependency>
 		<dependency>
 			<groupId>io.github.classgraph</groupId>
 			<artifactId>classgraph</artifactId>
-			<version>4.8.146</version>
+			<version>4.8.196</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.TommyLemon</groupId>
 			<artifactId>unitauto-java</artifactId>
-			<version>3.0.5</version>
+			<version>3.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.TommyLemon</groupId>
 			<artifactId>unitauto-jar</artifactId>
-			<version>3.0.5</version>
+			<version>3.1.0</version>
 		</dependency>
 
 	</dependencies>
